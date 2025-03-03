@@ -33,7 +33,12 @@
     <main class="main">
 
       <section class="main__highlight">
-        <img src="./src/images/image-web-3-mobile.jpg" alt="Web-3" class="main__image">
+
+        <picture class="main__image">
+          <source media="(min-width: 640px)" srcset="./src/images/image-web-3-desktop.jpg">
+          <img src="./src/images/image-web-3-mobile.jpg" style="width:auto" alt="Web-3" class="main__image">
+        </picture>
+
         <div class="main__wrapper">
           <h1 class="main__title">The Bright </br>Future of Web <br>3.0?</h1>
           <div class="main__textSection">

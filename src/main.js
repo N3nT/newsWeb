@@ -3,7 +3,6 @@ const body = document.querySelector('body');
 const nav = document.querySelector('.nav__list');
 let menuActive = false;
 
-
 const changeMenuStatus = () => {
   menuActive = !menuActive;
   changeMenu();
@@ -20,4 +19,3 @@ const changeMenu = () => {
 }
 
 hamburger.addEventListener('click', changeMenuStatus);
-
